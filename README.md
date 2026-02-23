@@ -44,9 +44,6 @@ Dashboard → General → Custom CSS
 Base icon system by Druidblack:
 https://github.com/Druidblack/jellyfin-icon-metadata
 
-IMDb Top 250 Icon Mod:
-https://github.com/chrissix666/Jellyfin-CSS-Mods
-
 ## License
 MIT / custom Jellyfin modifications.
 IMDb logos and branding belong to their respective owners.
