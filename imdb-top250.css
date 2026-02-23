@@ -254,5 +254,5 @@
 .itemExternalLinks a[href*="imdb.com/title/tt1454029"]::before,
 .itemExternalLinks a[href*="imdb.com/title/tt11032374"]::before
 {
-  background-image: url("https://i.imgur.com/t087oGe.png") !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250-icon.png") !important;
 }
