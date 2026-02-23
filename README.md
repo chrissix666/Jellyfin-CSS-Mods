@@ -1,3 +1,5 @@
+---
+
 # IMDb Top 250 Icon Mod for Jellyfin
 
 Custom CSS for Jellyfin Web.
@@ -47,3 +49,5 @@ https://github.com/Druidblack/jellyfin-icon-metadata
 ## License
 MIT / custom Jellyfin modifications.
 IMDb logos and branding belong to their respective owners.
+
+---
