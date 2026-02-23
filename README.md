@@ -1,5 +1,11 @@
 ---
 
+# my-jellyfin-css.css:
+
+My current custom CSS, which has gradually evolved from Jellyfin vanilla over time, tested and used on Jellyfin Web with Windows 11, Jellyfin 10.10.7, and Chrome.
+
+---
+
 # imdb-top250.css: IMDb Top 250 Icon Mod for Jellyfin
 
 Custom CSS for Jellyfin Web.
