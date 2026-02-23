@@ -1,42 +1,21 @@
-/* =========================================================
-   IMDb Top 250 + Ranking
-   Alternative to imdb-top250.css
-   Shows "#rank" text + IMDb Top 250 icon
-   Updated: 23 Feb 2026
-   ========================================================= */
-
-/* ---------------------------------------------------------
-   Common rank label styling
-   --------------------------------------------------------- */
 .itemExternalLinks a[href*="imdb.com/title/tt"]::before {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 0.9em;
-  color: #f5c518;
-  margin-right: 6px;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  font-size: 0.9em !important;
+  color: #f5c518 !important;
+  margin-right: 6px !important;
+  vertical-align: middle !important;
+  line-height: 1 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-/* ---------------------------------------------------------
-   IMDb Top 250 icon (after rank)
-   --------------------------------------------------------- */
 .itemExternalLinks a[href*="imdb.com/title/tt"]::after {
-  content: "";
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  margin-left: 4px;
-  vertical-align: -4px;
-  background-image: url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250-icon.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  content: none !important;
 }
-
-
-
-
 
 /* =========================================================
-   IMDb Top 250 from 23 Feb 2026
+   IMDb Top 250 with Ranks from 23 Feb 2026
    Source Icon: https://i.imgur.com/t087oGe.png
    ========================================================= */
 
