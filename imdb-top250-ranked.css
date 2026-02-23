@@ -1,20 +1,21 @@
-/* =========================================================
-   IMDb Top 250 (ranked)
-   Generated from imdb-top250.css
-   Adds visible ranking labels (#1–#250) + keeps icon
-   ========================================================= */
-
-/* Common styling for the ranking label (only shows when content is set) */
 .itemExternalLinks a[href*="imdb.com/title/tt"]::before {
   display: inline-block !important;
   font-weight: 700 !important;
   font-size: 0.9em !important;
   color: #f5c518 !important;
   margin-right: 6px !important;
-  vertical-align: middle !important;
   line-height: 1 !important;
+  vertical-align: middle !important;
+  background-image: none !important;
   opacity: 1 !important;
   visibility: visible !important;
+}
+
+.itemExternalLinks a[href*="imdb.com/title/tt"]::after {
+  content: none !important;
+}
+
+
 }
 
 /* Icon (moved to ::after so ::before can show #rank) */
