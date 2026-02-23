@@ -1,0 +1,73 @@
+@import url("https://dockeriseddan.github.io/jellyfin-intro-skipper-button-css/skip-button.css");
+@import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
+@import url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250.css");
+
+/* ----------------------------------------------------------
+   Main containers transparency (slight darkening)
+   ---------------------------------------------------------- */
+.detailPageContent,
+.detailPageContent .contentPrimary,
+.detailPageContent .contentSecondary,
+.detailPagePrimaryContainer,
+.detailPageSecondaryContainer {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ----------------------------------------------------------
+   Hide small indicators (count + played)
+   ---------------------------------------------------------- */
+.countIndicator { 
+  display: none !important; 
+}
+
+.playedIndicator { 
+  display: none !important; 
+}
+
+/* ----------------------------------------------------------
+   Swap order: Scenes before Cast & Crew
+   ---------------------------------------------------------- */
+
+/* Enable ordering on detail page sections */
+.detailPageContent {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scenes section */
+#scenesCollapsible {
+  order: 20;
+}
+
+/* Cast & Crew section */
+#castCollapsible {
+  order: 30;
+}
+
+/* ----------------------------------------------------------
+   Custom section ordering
+   Special Features before More Like This, then Upcoming
+   ---------------------------------------------------------- */
+
+/* Special Features section */
+#specialsCollapsible {
+  order: 997;
+}
+
+/* More Like This section */
+#similarCollapsible {
+  order: 998;
+}
+
+/* Series schedule / Upcoming On TV section */
+#seriesScheduleSection {
+  order: 999;
+}
+
+/* ----------------------------------------------------------
+   Make Posters in Collections Container bigger
+   ---------------------------------------------------------- */
+
+.collectionItemsContainer .portraitCard {
+    width: 192px !important;
+}
