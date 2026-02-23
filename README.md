@@ -17,7 +17,7 @@ This mod is based on and depends on the custom CSS project by Druidblack and wil
 https://github.com/Druidblack/jellyfin-icon-metadata
 
 ## Installation
-The following CSS must be imported before this mod:
+The following CSS (Druidblack Jellyfin Icon Metadata) must be imported before this mod:
 ```css
 @import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
 ```
