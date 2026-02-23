@@ -18,10 +18,14 @@ https://github.com/Druidblack/jellyfin-icon-metadata
 
 ## Installation
 The following CSS must be imported before this mod:
-```css@import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
+```css
+@import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
+```
 
 This mod, the IMDb Top 250 Icon Mod, must be imported afterwards:
-```css@import url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250.css");
+```css
+@import url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250.css");
+```
 
 Place these imports in Jellyfin:
 Dashboard → General → Custom CSS
@@ -40,7 +44,7 @@ Dashboard → General → Custom CSS
 Base icon system by Druidblack:
 https://github.com/Druidblack/jellyfin-icon-metadata
 
-IMDb Top 250 Mod:
+IMDb Top 250 Icon Mod:
 https://github.com/chrissix666/Jellyfin-CSS-Mods
 
 ## License
