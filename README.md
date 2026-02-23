@@ -1,6 +1,6 @@
 ---
 
-# IMDb Top 250 Icon Mod for Jellyfin
+# imdb-top250.css: IMDb Top 250 Icon Mod for Jellyfin
 
 Custom CSS for Jellyfin Web.
 Tested on Windows 11, Jellyfin 10.10.7, Chrome.
