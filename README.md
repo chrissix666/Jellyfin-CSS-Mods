@@ -1,21 +1,48 @@
----
+# IMDb Top 250 Icon Mod for Jellyfin
 
-# Jellyfin IMDb Top 250 – Custom CSS
+Custom CSS for Jellyfin Web.
+Tested on Windows 11, Jellyfin 10.10.7, Chrome.
 
-Custom CSS mod for **Jellyfin Web** that visually highlights **IMDb Top 250 movies** by replacing the default IMDb icon with a special Top-250 icon.
+## Description
+This mod replaces the default IMDb external link icon in Jellyfin with a special IMDb Top 250 icon
+for movies that are part of the IMDb Top 250 list.
 
-## Tested on
-- **Windows 11**
-- **Jellyfin 10.10.7**
-- **Google Chrome**
+Detection is done purely via CSS by matching hardcoded IMDb IDs.
+If a movie’s IMDb ID is part of the Top 250 list, the custom icon is shown instead of the normal IMDb logo.
 
-## Dependency (important)
-This mod **depends on the custom CSS by Druidblack** and **will not work without it**.
+IMPORTANT: The IMDb Top 250 list is hardcoded. It does not update automatically when IMDb changes rankings.
 
-👉 Repository:  
+## Dependency (Required)
+This mod is based on and depends on the custom CSS project by Druidblack and will not work without it:
 https://github.com/Druidblack/jellyfin-icon-metadata
 
-The following CSS **must be imported before this mod**:
-
-```css
+## Installation
+The following CSS must be imported before this mod:
 @import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
+
+This mod, the IMDb Top 250 Icon Mod, must be imported afterwards:
+@import url("https://cdn.jsdelivr.net/gh/chrissix666/Jellyfin-CSS-Mods@main/imdb-top250.css");
+
+Place these imports in Jellyfin:
+Dashboard → General → Custom CSS
+
+## What this mod does
+- Detects movies that are part of the IMDb Top 250
+- Replaces the standard IMDb icon with a custom Top 250 icon
+- CSS-only (no plugins, no JavaScript)
+
+## Notes
+- IMDb Top 250 detection is based on hardcoded IMDb IDs
+- The list reflects the Top 250 at the time of creation
+- Updates require manual changes to the CSS file
+
+## Credits
+Base icon system by Druidblack:
+https://github.com/Druidblack/jellyfin-icon-metadata
+
+IMDb Top 250 Mod:
+https://github.com/chrissix666/Jellyfin-CSS-Mods
+
+## License
+MIT / custom Jellyfin modifications.
+IMDb logos and branding belong to their respective owners.
