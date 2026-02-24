@@ -36,7 +36,7 @@ This mod, the IMDb Top 250 Icon Mod, must be imported afterwards:
 ```
 
 Place these imports in Jellyfin:
-Dashboard → General → Custom CSS
+Dashboard → Branding → Custom CSS code
 
 ## What this mod does
 - Detects movies that are part of the IMDb Top 250
