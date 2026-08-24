@@ -1,3 +1,5 @@
+[Jellyfin Projects](https://linktr.ee/JellyfinProjects) | [Kodi Projects](https://linktr.ee/KodiProjects)
+
 ---
 
 # my-jellyfin-css.css:
